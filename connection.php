@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect ("shareddb-t.hosting.stackcp.net","sunilonline","Sunil@123","onlinenotes-3133319465");
+$link = mysqli_connect ("hostname","username","password","database name");
 
 if(mysqli_connect_error()){
   die("ERROR: Unable to connect to server".mysqli_connect_error());
